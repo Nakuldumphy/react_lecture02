@@ -1,3 +1,14 @@
+// *********** Bundler ******** //not part of react 
+// hmm first.js, index.html ko sever pe daal tho skte hai :: but abhi ye production ready code nhi hai
+// due to various comments and spaces , it is not optimized code
+// ek kaam kro react ka sara code, html file ke andrr daal do // but this will inc. size of our file
+// jitna jaruri hai utna hi code daalu html me
+// tho mei code ko production ready kaise kru (optimized code, comments and spaces ko hata do,kuch code aisa hoga jo mei use nhi krr raha , react and reactDOM me kuch portion use hi na hua ho)
+// therefore hmme file ka size reduce krna hai :: for this we use BUNDLER
+// Bundler : pure code(JS,CSS,HTML,etc) ko phadhta hai, orr ek Bundler tayarr krta hai :: which is ready for production 
+// Webpack, vite , parcel, rollup etc.
+// hmm parcel use krenge
+
 // in terminal:
 npm init  :: jo puche usse daalo ya skip kro
 npm install parcel :: parcel ko install krna ho tho // isse parcel ke alava bhi bhot kuch aagya prr kyu??
@@ -9,7 +20,15 @@ npm install parcel :: parcel ko install krna ho tho // isse parcel ke alava bhi 
 
 version: 18.2.3   // isska kya mtlb hai??
 Major.Minor.Patch
+//minor or patch update ke baad bhi purana code sahi work kre ga
+//major update ke baad purane code me dikktt aaskti hai
 
+
+version: ^19.0.0  // ^ isska kya mtlbb hai ??
+^ : carret :: mtlb, this version will accept Minor and Patches update in it
+~ : tild :: mtlb, this version will accept Patches update in it
+
+// package-lock.json :: jitne bhi packages aapka code use krne vala hai , unnsbke exact version ye notedown krke likhta hai
 
 
 <!-- npm kya hai ???? -->
