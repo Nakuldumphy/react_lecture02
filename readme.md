@@ -16,7 +16,7 @@ npm install parcel :: parcel ko install krna ho tho // isse parcel ke alava bhi 
 // react vagera ko npm se leaao :: npm install react
 // reactDOM ko npm se leaao :: npm install react-dom
 
-// package.json me dependencies naam ka object hoga bataye ga ki npm ki kiss kiss chijj pe depend hai
+// package.json me dependencies naam ka object hoga bataye ga ki npm ki kiss kiss chijj pe depend hai // jiss chijj prr depend hai, vo sari chijj store hnn node_modules me
 
 version: 18.2.3   // isska kya mtlb hai??
 Major.Minor.Patch
@@ -28,8 +28,19 @@ version: ^19.0.0  // ^ isska kya mtlbb hai ??
 ^ : carret :: mtlb, this version will accept Minor and Patches update in it
 ~ : tild :: mtlb, this version will accept Patches update in it
 
-// package-lock.json :: jitne bhi packages aapka code use krne vala hai , unnsbke exact version ye notedown krke likhta hai
+// package-lock.json :: jitne bhi packages aapka code use krne vala hai , unnsbke exact version ye notedown krke rakhta hai
 
+
+//Ye bilkul recommanded nhi hai ki node_modules ko hmm github pe upload kre, hmme sirf code ko github pe daalna hai, since node_modules ko tho hmm khud bhi generate(or usska size bhi 309MB hai) krr skte hnn by :: npm install 
+// prr ye krne se pata kaise chala ki konsa version use krr rahe hn // this information will be taken from package-lock.json
+
+// agrr kisi ne package-lock.json bhi nahi diya tho?? 
+// hmm check krenge package.json ke andrr dependencies ko, unka jonsa version hoga vo + koi minor or patch hua vo , ye dono download krr lega
+
+
+
+
+// tho hmm code + package-lock.json + package.json ko github pe daalte hn
 
 <!-- npm kya hai ???? -->
 // node package manager
