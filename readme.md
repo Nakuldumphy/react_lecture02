@@ -35,7 +35,7 @@ version: ^19.0.0  // ^ isska kya mtlbb hai ??
 // prr ye krne se pata kaise chala ki konsa version use krr rahe hn // this information will be taken from package-lock.json
 
 // agrr kisi ne package-lock.json bhi nahi diya tho?? 
-// hmm check krenge package.json ke andrr dependencies ko, unka jonsa version hoga vo + koi minor or patch hua vo , ye dono download krr lega
+// hmm check krenge package.json ke andrr dependencies ko, unka jonsa version hoga vo + koi minor or patch hua vo(kyoki ^ iss symbol ka use kiya hai) , ye dono download krr lega
 
 
 
